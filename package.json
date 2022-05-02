@@ -1,0 +1,17 @@
+{
+  "name": "cypress-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "electron-tests": "npx cypress run",
+    "chrome-tests": "npx cypress run --browser chrome",
+    "cypress-dashboad": "npx cypress run --record --key 94ccb881-a4f3-488f-983c-c73937e99b57"
+  },
+  "author": "Bartosz Kuczera",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.0",
+    "cypress-multi-reporters": "^1.6.0"
+  }
+}
