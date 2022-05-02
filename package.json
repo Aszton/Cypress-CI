@@ -6,7 +6,8 @@
   "scripts": {
     "electron-tests": "npx cypress run",
     "chrome-tests": "npx cypress run --browser chrome",
-    "cypress-dashboad": "npx cypress run --record --key 94ccb881-a4f3-488f-983c-c73937e99b57"
+    "cypress-dashboad": "npx cypress run --record --key 94ccb881-a4f3-488f-983c-c73937e99b57",
+    "start": "./node_modules/.bin/json-server --static . data.json -m middleware.js --config json"
   },
   "author": "Bartosz Kuczera",
   "license": "ISC",
