@@ -3,8 +3,8 @@
       "viewportHeight": 1000,
       "baseUrl": "https://automationteststore.com/",
       "chromeWebSecurity": true,
-      "defaultCommandTimeout": 5000,
-      "pageLoadTimeout": 5000,
+      "defaultCommandTimeout": 7000,
+      "pageLoadTimeout": 7000,
       "projectId": "5mu125",
         "reporter": "cypress-multi-reporters",
         "reporterOptions": {
