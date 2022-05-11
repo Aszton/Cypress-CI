@@ -16,13 +16,13 @@ describe("Login Tests", () => {
 
   it("Login with valid creditentials", function () {
     loginPageHelper.login(this.data.login, this.data.password);
-    loginPageHelper.clickOnLoginButton();
+    // loginPageHelper.clickOnLoginButton();
     loginPageHelper.isUserloginCorrectly();
   });
 
   it("Login with invalid creditantials", function () {
     loginPageHelper.login(this.data.failLogin, this.data.failLogin);
-    loginPageHelper.clickOnLoginButton();
+    // loginPageHelper.clickOnLoginButton();
     loginPageHelper.loginErrorMessage();
   });
 });
