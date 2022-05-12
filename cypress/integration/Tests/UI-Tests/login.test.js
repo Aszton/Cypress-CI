@@ -7,18 +7,18 @@ const navigationHelper = new Navigaton_PO();
 const loginPageHelper = new Login_PO();
 
 describe("Login Tests", () => {
-  beforeEach(function () {
+  beforeEach(() => {
     navigationHelper.openHomepage();
     navigationHelper.clickLoginOrRegister();
   });
 
-  it("Login with valid creditentials", function () {
-    loginPageHelper.login(`${user.userName}`, `${user.password}`)
+  it("Login with valid creditentials", () => {
+    loginPageHelper.login(`${user.userName}`, `${user.password}`);
     loginPageHelper.clickOnLoginButton();
     loginPageHelper.isUserloginCorrectly();
   });
 
-  it("Login with invalid creditantials", function () {
+  it("Login with invalid creditantials", () => {
     loginPageHelper.login(`${user.failUserName}`, `${user.failPassword}`);
     loginPageHelper.clickOnLoginButton();
     loginPageHelper.loginErrorMessage();

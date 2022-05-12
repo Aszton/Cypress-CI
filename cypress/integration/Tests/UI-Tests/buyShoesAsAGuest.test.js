@@ -10,9 +10,10 @@ const shoesDetailsHelper = new ShoesCategoryDetails_PO();
 const checkoutHelper = new Checkout_PO();
 
 describe('Buy as a Guest', () => {
-  beforeEach(function () {
+  beforeEach(() => {
     navigatonHelper.openHomepage();
   });
+  
   it('Buy shoes as a Guest', () => {
     navigatonHelper.openApparelAndAccesoriesTab();
     navigatonHelper.openShoesTab();
