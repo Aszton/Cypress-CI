@@ -1,7 +1,7 @@
 
 {
-    "login":"test_user_wsb",
+    "userName":"test_user_wsb",
     "password":"test_pass_wsb",
-    "failLogin": "fail",
+    "failUserName": "fail",
     "failPassword": "fail"
 }
