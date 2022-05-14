@@ -5,7 +5,7 @@
       "chromeWebSecurity": true,
       "defaultCommandTimeout": 7000,
       "pageLoadTimeout": 7000,
-      "projectId": "5mu125",
+      "projectId": "83nyoi",
         "reporter": "cypress-multi-reporters",
         "reporterOptions": {
           "configFile": "reporter-config.json"
