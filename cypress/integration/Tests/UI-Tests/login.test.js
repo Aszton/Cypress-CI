@@ -16,6 +16,7 @@ describe("Login Tests", () => {
     loginPageHelper.login(`${user.userName}`, `${user.password}`);
     loginPageHelper.clickOnLoginButton();
     loginPageHelper.isUserloginCorrectly();
+    console.log("check CI reporting")
   });
 
   it("Login with invalid creditantials", () => {
