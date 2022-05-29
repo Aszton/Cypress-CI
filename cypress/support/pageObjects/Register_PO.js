@@ -2,11 +2,8 @@ import { registerSelectors } from "../selectors/selectors";
 
 class Register_PO {
   clickContinueRegister() {
-    cy.get(registerSelectors.continueButton).click();
-    cy.get(registerSelectors.registerHeader).should(
-      "have.text",
-      " Create Account"
-    );
+    cy.get(registerSelectors.continueButton).click()
+    cy.url().should("include", "account/create")
   }
   fillRegisterForm(
     firstName,

@@ -6,6 +6,7 @@
   "scripts": {
     "electron-tests": "npx cypress run",
     "chrome-tests": "npx cypress run --browser chrome",
+    "chrome-visible": "npx cypress run --browser chrome --headed",
     "cypress-dashboad": "npx cypress run --record --key ba073350-69bf-473d-adfe-d18b040e417c",
     "start": "./node_modules/.bin/json-server --static . data.json -m middleware.js --config json"
   },

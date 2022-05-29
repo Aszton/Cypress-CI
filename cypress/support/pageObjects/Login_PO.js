@@ -7,7 +7,7 @@ class Login_PO {
     cy.get(loginSelectors.loginButton).click();
   }
   loginErrorMessage() {
-    cy.get(loginSelectors.errorIncorrectLogin);
+    cy.get(loginSelectors.errorIncorrectLogin).should("contain.text", "Error: Incorrect login or password provided.");
   }
   isUserloginCorrectly() {
     cy.url().should("include", "account/account");
