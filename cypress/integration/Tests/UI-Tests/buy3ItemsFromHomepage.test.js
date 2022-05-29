@@ -24,7 +24,7 @@ describe("Buy Items from homepage test", () => {
     loginPageHelper.isUserloginCorrectly();
     navigationHelper.openHomepage();
     addItemsHelper.add3CreamsFromHomepageToTheCart();
-    cartItemsHelper.checkIfItemsInChartAreCorrect(3);
+    cartItemsHelper.checkIfItemsInChartAreCorrect(10);
     checkoutHelper.checkoutWithAutoFilledData();
   });
 });

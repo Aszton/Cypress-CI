@@ -41,13 +41,13 @@ class Register_PO {
   failRegisterError() {
     cy.get(registerSelectors.failMessage).should(
       "contain.text",
-      "Email Address does not appear to be valid!"
+      "This is fail test"
     );
   }
   successRegister() {
     cy.get(registerSelectors.registerHeader).should(
       "have.text",
-      " Your Account Has Been Created!"
+      " This is fail test"
     );
   }
 }
