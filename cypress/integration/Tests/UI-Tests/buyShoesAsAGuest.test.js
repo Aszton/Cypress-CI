@@ -23,7 +23,7 @@ describe('Buy as a Guest', () => {
     );
     shoesDetailsHelper.chooseSize("4 UK");
     cy.clearInputAndType(productDetailsSelectors.qty, 10);
-    cy.checkValue(10);
+    cy.checkValue(15);
     cy.clickAddToChart();
     checkoutHelper.guestCheckout(
       inputValue.randomFirstName,
