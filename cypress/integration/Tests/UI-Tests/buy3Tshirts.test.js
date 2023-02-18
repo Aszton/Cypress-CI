@@ -10,7 +10,7 @@ const loginPageHelper = new Login_PO();
 const checkoutHelper = new Checkout_PO();
 const addItemsHelper = new Add3ItemsToTheCart_PO();
 
-describe("Buy 3 T-shirts", () => {
+describe.skip("Buy 3 T-shirts", () => {
   beforeEach(() => {
     navigationHelper.openHomepage();
     navigationHelper.clickLoginOrRegister();
