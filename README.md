@@ -1,5 +1,7 @@
 ![cypress_github](https://user-images.githubusercontent.com/22678683/166293886-d99cd339-44ba-48b9-86c4-e85ec1f19741.png)
 ## Project for the WSB studies
+### Here is a live video from the presentation:
+![video](https://youtu.be/X7bitctnFnw)
 ### How to start:
 1. Install [Node JS](https://nodejs.org/en/download/)
 2. Clone the project to your local machine:
