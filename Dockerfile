@@ -1,4 +1,4 @@
-FROM cypress/included:9.6.1
+FROM cypress/included:12.6.0
 RUN mkdir /Cypress-CI
 WORKDIR /Cypress-CI
 COPY . /Cypress-CI/
